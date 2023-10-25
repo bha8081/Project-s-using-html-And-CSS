@@ -1,0 +1,125 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../Assets/bg.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.logo img {
+  height: 50px;
+  width: 100px;
+}
+
+nav {
+  padding: 15px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000000df;
+}
+
+.header-items ul {
+      display: flex;
+      align-items: center;
+      gap: 60px;
+      list-style: none;
+}
+
+.header-items ul li {
+  list-style: none;
+  font-style: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 24px;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #faebd7;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+a:hover {
+  font-size: 28px;
+  font-weight: 600;
+  color: #eb06b9;
+}
+
+
+.header-button {
+    padding: 8px 16px;
+    font-weight: 500;
+    font-size: 30px;
+    color: #faebd7;
+    background-color: #ec0dd6;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Shippori Mincho', serif;
+}
+
+.header-button:hover {
+    font-weight: 700;
+    font-size: 35px;
+    color: #000000;
+    background-color: #3565f7;
+    border: 2px solid #329fcd;
+}
+
+/* Hero Section CSS  */
+
+.hero-section h1 {
+    font-weight: 900;
+    font-size: 90px;
+    color: #faebd7;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.hero-section p {
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #faebd7;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-button button {
+  padding: 14px 12px;
+  font-weight: 500;
+  font-size: 30px;
+  border-radius: 10px;
+  border: none;
+  color: #faebd7;
+  background-color: #eb06b9;
+  font-family: 'Shippori Mincho', serif;
+}
+
+.hero-button button:hover {
+  font-size: 35px;
+  font-weight: 700;
+  color: #000000;
+  background-color: #3565f7;
+  border: 2px solid #329fcd;
+}
+
+.hero-section {
+  align-items: center;
+  height: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}

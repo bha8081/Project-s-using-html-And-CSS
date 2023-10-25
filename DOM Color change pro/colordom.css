@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    /* height: 80px; */
+    /* width: 320px; */
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    /* margin: 800px 0 0 0; */
+    cursor: pointer;
+    padding: 16px;
+    font-size: 25px;
+    border-radius: 30px;
+    border: 2px solid rgb(130, 215, 69);
+    background-color: #e1690dfe;
+}

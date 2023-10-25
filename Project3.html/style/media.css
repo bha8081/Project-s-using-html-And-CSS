@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #ebead0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    padding: 0px 15px;
+    height: 15vh;
+   
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 5%;
+    font-weight: 600;
+}
+
+nav.logo {
+    width: 590px;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-left-section {
+    width: 40%;
+}
+
+.hero-left-section p {
+    margin: 5% 0;
+}
+
+.hero-left-section h1 {
+    font-size: 60px;
+}
+
+button {
+    padding: 15px 20px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+    border: none;
+    background-color: #26523d;
+    border-radius: 10px;
+}
+
+button:hover{
+    font-weight: 900;
+    color: rgb(247, 15, 15);
+    background-color: #111010;
+    border: 4px solid #ffff00;
+}
+
+.hero-right-section h1 {
+    height: 90px;
+    width: 60px;
+}
+
+.hero-right-section {
+    /* width: 60%; */
+    padding: 18%;
+}
+
+.hero-right-section div img {
+    height: 140px;
+    width: 100px;
+}
+
+.hero-right-section div img:first-child {
+    margin: 30px;
+    height: 170px;
+    width: 230px;
+}
+
+
+
+/* body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFFACD;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
+/* nav {
+    display: flex;
+    width: 100%;
+    align-items:flex-start;
+    justify-content: space-around;
+}
+
+nav.logo {
+    font-weight: 500;
+}
+
+nav ul {
+    display: flex;
+    align-items:norm;
+    gap: 140px;
+    font-weight: 500;
+}
+
+nav ul:hover {
+    font-weight: 900;
+}
+
+/* li {
+    list-style: none;
+    cursor: pointer;
+} */
+
+/* .hero-section {
+    display: flex;
+    align-items: center;
+}
+
+.hero-left-section h1 {
+    font-size: 50px;
+    font-weight: 600;
+} */
+
+/* button {
+    background-color: #f3eed4;
+    padding: 4px 14px;
+    cursor: pointer;
+    border-radius: 10%;
+    font-size: 23px;
+    font-weight: 600;
+    color: #0a0606;
+    width: fit-content;
+    border: 2px solid #000000;
+} */
+
+/* button:hover {
+    font-weight: 900;
+    background-color: #39cbf3;
+    border: 2px solid #000000;
+}
+
+.hero-right-section {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-right-section img {
+    height: 150px;
+    width: 100px;
+}  */
+

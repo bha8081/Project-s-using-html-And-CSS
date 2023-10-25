@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game!</title>
+</head>
+<body>
+    <!-- result will be displayed in this heading -->
+
+    <h1 id="result">Your result</h1>
+    <input id="inputBox" type="text" placeholder="Enter your guessed number.">
+    <button id="button">Check</button>
+
+ </body>
+
+ <!-- Script start now -->
+
+ <script>
+    const result = document.getElementById("result");
+    const inputBox = document.getElementById("inputBox");
+    const button = document.getElementById("button");
+
+    const computerGuess = Math.floor(Math.random() * 10);
+    console.log(computerGuess);
+
+    button.addEventListener("click", () => {
+        const userGuess = Number(inputBox.value);
+        // console.log(userGuess);
+
+        if(computerGuess === userGuess) {
+            result.innerText = "You won the Game!!";
+        } else if (computerGuess > userGuess) {
+            // console.log("Try to larger number!!");
+
+            result.innerText = "Guess a Greater number";
+        } else {
+            result.innerText = "Guess a smaller Number";
+        }
+    });
+
+
+ </script>
+
+</html>
+
+<!-- advancement of the project -->
+<!-- Level -> Easy(10), Medium(50), Hard(100) -->
+<!-- Clear all the result data after user won the game -->
+<!-- Restart Button -->

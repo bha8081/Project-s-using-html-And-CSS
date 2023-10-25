@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url("../Assets/pexels-maxyne-barcel-10402282\ 1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+nav {
+    padding: 0 60px 0 60px;
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* nav.logo {
+    width: 299px;
+    height: 900px;
+} */
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+nav ul li {
+    list-style-type: none;
+    font-style: none;
+    cursor: pointer;
+    font-size: 23px;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul li:hover {
+    /* text-decoration: underline; */
+    font-weight: 600;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #f1c815;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+.button-small {
+    background-color: #ed4e51;
+    font-weight: 400;
+    font-size: 30px;
+    padding: 6px 15px;
+    border-radius: 9px;
+    cursor: pointer;
+    color: #fcd00a;
+    background-color: #ed4e51;
+    width: fit-content;
+    border: none;
+    /* border: 2px solid rgb(16, 16, 8); */
+}
+
+.button-small:hover {
+    font-weight: 900;
+    background-color: #2f4f4f;
+    color: #f8f7f3;
+    border: 2px solid #808080;
+}
+
+.hero-Section h1 {
+    font-size: 100px;
+    color: #f1c815;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 135px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 144px;
+}
+
+   .button-large {
+    /* display: flex; */
+    /* justify-content: center; */
+    padding: 17px 30px;
+    font-weight: 500;
+    font-size: 30px;
+    color: #f1c815;
+    font-style: normal;
+    border: none;
+    margin-top: 64px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #ed4e51;
+} 
+
+.main-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .button-large {
+    display: flex;
+    justify-content: center;
+}  */
+
+
+ .button-large:hover {
+    font-weight: 900;
+    border-radius: 10px;
+    color: #f7f9f3;
+    border: 2px solid #808080;
+    background-color: #2f4f4f;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+}
